@@ -1,0 +1,68 @@
+/*项目工程页面公用的css ,独有的写在对应vue文件内*/
+.el-dialog__wrapper{
+	position: absolute !important;  /*和拖拽的冲突了所以出此下策*/
+}
+	.selectDiv{
+		width:100%;
+	}
+	.formDiv{
+		height:700px
+	}
+    .handle-box {
+        margin-bottom: 20px;
+    }
+
+    .handle-select {
+        width: 120px;
+    }
+
+    .handle-input {
+        width: 300px;
+        display: inline-block;
+    }
+    .del-dialog-cnt{
+        font-size: 16px;
+        text-align: center
+    }
+    /*el-row*/
+   .el-row {
+   	 margin: 0;
+
+    }
+    /***禁用表单时缩小上下间距*****/
+    .noMargin{
+		margin: 0;
+	}
+/*    button*/
+	.rightRefresh{
+		float:right;
+	}
+/*    table*/
+    .table{
+        width: 100%;
+        font-size: 14px;
+    }
+    .red{
+        color: #ff0000 !important;
+    }
+ /*分页*/
+.pagination {
+  margin-top:20px;
+}
+/*drawer*/
+    .blueText{
+    	color:#409EFF;
+    	font-size:16px;
+    /*	text-decoration: underline;*/
+    	margin:0 5px 0 5px;
+    }
+    .demo-drawer-footer{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top: 1px solid #e8e8e8;
+        padding: 10px 16px;
+        text-align: left;
+        background: #fff;
+    }
